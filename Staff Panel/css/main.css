@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f3eded;
+  overflow: scroll;
+}
+.error_msg{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 30px;
+  border-radius: 12px;
+  margin-top: 50px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.container .title1{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+select{
+  width: 300px;
+  height: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  color: ;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .user-details .input-box1{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box1 span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+}
+ form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background:black;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: #68e0cf;
+ }
+ form .button input:hover{
+  /* transform: scale(0.99); */
+  
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+select {
+  width: 310px;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+    form .user-details .input-box1{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }
+}
+form .login_Register{
+  text-align: center;
+  margin-top: 25px;
+}
+.login_Register a{
+  color: black;
+}
+form a{
+  text-decoration: none;
+}
+form a:hover{
+  text-decoration: underline;
+}
+  @media(max-width: 640px){
+  
+  select{
+    width: 260px;
+  }
+  }
+
+  @media(max-width: 400px){
+  
+  select{
+    width: 312px;
+  }
+  }
+
+  @media(max-width: 500px){
+  
+  select{
+    width: 396px;
+  }
+  }
+
+.user-details .input-box1 input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  padding-top: 10px;
+}
